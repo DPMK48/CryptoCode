@@ -4,6 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CryptoCode | Home</title>
+    <link rel="stylesheet" href="../CSS/style.css" />
+    
+    <script src="https://example.com/fontawesome/v6.5.1/js/all.js" data-auto-replace-svg="nest"></script>
   </head>
   <body>
     <div class="background">
@@ -12,20 +15,24 @@
           <h1><span class="mint">C</span>ryptoCode</h1>
         </div>
         <nav>
-          <a href="#home">HOME</a>
-          <a href="#about">ABOUT</a>
-          <a href="#">SERVICES</a>
-          <a href="#">CONTACT</a>
-          <a href="#">PAGES</a>
+          <a href="../HTML/home.html">HOME</a>
+          <a href="../HTML/about.html">ABOUT</a>
+          <a href="../HTML/services.html">SERVICES</a>
+          <a href="../HTML/plans.html">PLANS</a>
+          <a href="../HTML/">PAGES</a>
         </nav>
-        <button class="dark-btn btn">LOG IN</button>
-        <button class="light-btn btn">REGISTER</button>
+        <div>
+          <button class="dark-btn btn">LOG IN</button>
+          <button class="light-btn btn">REGISTER</button>
+        </div>
       </header>
 
       <section class="section-one">
         <div class="container-one">
           <div class="phone-image">
-            <img src="" alt="" />
+            <div>
+              <img src="../ASSETS/crypto img1.png" alt="" />
+            </div>
           </div>
           <div class="text">
             <h1>Make Easier Your Crypto Transactions.</h1>
@@ -44,21 +51,21 @@
         <h2>Best Crypto Currently</h2>
         <div class="container-two">
           <div class="box">
-            <div class="icon"></div>
+            <div class="icon"><FontAwesomeIcon icon="fa-solid fa-bitcoin-sign" style="color: #44e5ae;" /></div>
             <h2 class="name">Bitcoin</h2>
-            <p class="prize"></p>
+            <p class="prize">50,000.56$</p>
+          </div>
+
+          <div class="box">
+            <div class="icon"><FontAwesomeIcon icon="fa-brands fa-ethereum" style="color: #44e5ae;" /></div>
+            <h2 class="name">Ethereum</h2>
+            <p class="prize">10,234.20$</p>
           </div>
 
           <div class="box">
             <div class="icon"></div>
-            <h2 class="name">Bitcoin</h2>
-            <p class="prize"></p>
-          </div>
-
-          <div class="box">
-            <div class="icon"></div>
-            <h2 class="name">Bitcoin</h2>
-            <p class="prize"></p>
+            <h2 class="name">Ripple</h2>
+            <p class="prize">1,234.00$</p>
           </div>
         </div>
       </section>
@@ -67,14 +74,14 @@
         <div class="container-three">
           <div class="chart">
             <div class="big-chart">
-              <img src="" alt="" class="chart-image" />
-              <div class="current-month">February</div>
+            <button>February</button>
+              <i class="fa-solid fa-chart-line"></i>   
             </div>
             <div class="small-chart">
               <div class="chart-icon">$</div>
               <div class="chart-items">
-                <h3 class="monthly-earning"></h3>
-                <p>Earning of February</p>
+                <p style="color: #f2f2f2;" class="monthly-earning">3,550$</p>
+                <p style="color: #9d9d9d;">Earning of February</p>
               </div>
             </div>
           </div>
@@ -102,11 +109,11 @@
           </div>
           <div class="right-chart">
             <div class="down-chart">
-              <img src="" alt="" />
+              <img src="../ASSETS/crypto-image2.png" alt="" />
             </div>
-            <div class="up-chart">
+            <!-- <div class="up-chart">
               <img src="" alt="" />
-            </div>
+            </div> -->
           </div>
         </div>
       </section>
@@ -120,43 +127,55 @@
           nullam consequat orci amet fames sed. Amet tincidunt adipiscing varius
           maecenas adipiscing.
         </p>
-      </div>
-      <form action="">
-        <div>
-            <input type="text" placeholder="Enter your email here">
+        <form action="">
+          <div>
+            <input type="text" placeholder="Enter your email here" />
             <button class="light-btn btn">SUBSCRIBE NOW</button>
-        </div>
-      </form>
+          </div>
+        </form>
+      </div>
 
       <footer>
         <div>
-            <div class="short-note">
-                <div class="logo">
-                    <h1><span class="mint">C</span>ryptoCode</h1>
-                </div>
-                <p>Posuere ac in in nisl sed augue. Ultrices eget pretium sit euismod mi id posuere ac in in nisl sed augue.</p>
+          <div class="short-note">
+            <div class="logo">
+              <h1><span class="mint">C</span>ryptoCode</h1>
             </div>
+            <p>
+              Posuere ac in in nisl sed augue. Ultrices eget pretium sit euismod
+              mi id posuere ac in in nisl sed augue.
+            </p>
+          </div>
 
-            <div class="other-links">
-                <a href="#">ABOUT US</a>
-                <a href="#">FEATURES</a>
-                <a href="#">NEWS</a>
-            </div>
+          <div class="other-links">
+            <h1>Other Links</h1>
+            <a href="#">ABOUT US</a>
+            <a href="#">FEATURES</a>
+            <a href="#">NEWS</a>
+          </div>
 
-            <div class="social">
-                <a href="#" class="fb"></a>
-                <a href="#" class="twee"></a>
-                <a href="#" class="insta"></a>
-            </div>
+          <div class="contact">
+            <h1>Contact</h1>
+            <p>
+              <span class="bold">Address:</span> One World Trade Center, 85th
+              Floor, Lower Manhattan, Suite 8500, NY 10007, USA
+            </p>
+            <p>
+              <span class="bold">Email:</span> contact@stellarblockchainco.com
+            </p>
+            <p><span class="bold">Phone Number:</span> +1(901) 443-3998</p>
+          </div>
 
-            <div class="contact">
-                <p><span class="bold">Address:</span> One World Trade Center, 85th Floor, Lower Manhattan, Suite 8500, NY 10007, USA</p>
-                <p><span class="bold">Email:</span> contact@stellarblockchainco.com</p>
-                <p><span class="bold">Phone Number:</span> +1(901) 443-3998</p>
-            </div>
+          <div class="social">
+            <h1>Social</h1>
+            <a href="#" class="fb"></a>
+            <a href="#" class="twee"></a>
+            <a href="#" class="insta"></a>
+          </div>
+
         </div>
-        <hr>
-        <p>&copy; 2022 CryptoCode. Website designed by DPMK.</p>
+        <hr />
+        <p class="copyright">&copy; 2024 CryptoCode. Website designed by DPMK.</p>
       </footer>
     </div>
   </body>

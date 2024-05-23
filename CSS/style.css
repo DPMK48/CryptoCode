@@ -1,1 +1,460 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  margin: 1.5rem 0;
+}
+
+button {
+  padding: 1.2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.light-btn {
+  background: #44e5ae;
+}
+
+.dark-btn {
+  background: #151515;
+  color: #f2f2f2;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+body .background {
+  width: 100%;
+  height: 100%;
+  background: #151515;
+  color: #f2f2f2;
+}
+body .background header {
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body .background header .logo h1 {
+  font-size: 2rem;
+}
+body .background header .logo h1 .mint {
+  color: #44e5ae;
+}
+body .background header nav a {
+  padding: 0 1rem;
+  text-decoration: none;
+  color: #f2f2f2;
+}
+body .background header nav a:hover {
+  color: #44e5ae;
+}
+body .background .section-one {
+  padding: 5rem 3rem;
+}
+body .background .section-one .container-one {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body .background .section-one .container-one .phone-image {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .background .section-one .container-one .phone-image div {
+  width: 600px;
+  height: 600px;
+  border-radius: 50%;
+  border: 5px solid #9d9d9d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .background .section-one .container-one .phone-image div img {
+  width: 500px;
+}
+body .background .section-one .container-one .text {
+  width: 50%;
+  padding-top: 0;
+  margin-top: 0;
+}
+body .background .section-one .container-one .text h1 {
+  font-size: 4.5rem;
+  margin-bottom: 1rem;
+}
+body .background .section-one .container-one .text p {
+  font-size: 1.2rem;
+  line-height: 2.3rem;
+  color: #9d9d9d;
+  margin-bottom: 2rem;
+}
+body .background .section-two {
+  padding: 2rem 5rem;
+  background: radial-gradient(circle, rgba(68, 229, 175, 0.158) 0%, rgb(21, 21, 21) 31%);
+}
+body .background .section-two h2 {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 3rem;
+}
+body .background .section-two .container-two {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body .background .section-two .container-two .box {
+  width: 25%;
+  border: 5px solid #9d9d9d;
+  border-radius: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5rem 2rem;
+}
+body .background .section-two .container-two .box .prize {
+  color: #44e5ae;
+  font-size: 2rem;
+}
+body .background .section-three {
+  padding: 5rem;
+  margin-top: 5rem;
+}
+body .background .section-three .container-three {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: start;
+}
+body .background .section-three .container-three .chart {
+  width: 50%;
+  position: relative;
+}
+body .background .section-three .container-three .chart .big-chart {
+  width: 80%;
+  height: 400px;
+  background: rgba(154, 154, 154, 0.3);
+  margin: auto;
+  border-radius: 30px;
+  position: relative;
+}
+body .background .section-three .container-three .chart .big-chart button {
+  position: absolute;
+  right: 1rem;
+  margin: 1.5rem;
+  padding: 1rem 2rem;
+  background: #44e5ae;
+}
+body .background .section-three .container-three .chart .small-chart {
+  background: rgb(98, 98, 98);
+  width: 50%;
+  position: absolute;
+  top: -80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 3rem;
+  border-radius: 20px;
+}
+body .background .section-three .container-three .chart .small-chart .chart-icon {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: #183a2f;
+  color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .background .section-three .container-three .chart .small-chart .chart-items {
+  width: 60%;
+  font-size: 1.4rem;
+}
+body .background .section-three .container-three .chart-text {
+  width: 50%;
+}
+body .background .section-three .container-three .chart-text h3 {
+  font-size: 3rem;
+}
+body .background .section-three .container-three .chart-text p {
+  color: #9d9d9d;
+  line-height: 2rem;
+  font-size: 1.4rem;
+}
+body .background .section-four {
+  padding: 5rem;
+  margin-top: 4rem;
+}
+body .background .section-four .container-four {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 2rem;
+}
+body .background .section-four .container-four .left-text {
+  width: 40%;
+}
+body .background .section-four .container-four .left-text h3 {
+  font-size: 3rem;
+}
+body .background .section-four .container-four .left-text p {
+  font-size: 1.4rem;
+  color: #9d9d9d;
+  line-height: 2rem;
+}
+body .background .section-four .container-four .right-chart {
+  width: 50%;
+}
+body .background .section-four .container-four .right-chart .down-chart {
+  width: 100%;
+}
+body .background .section-four .container-four .right-chart .down-chart img {
+  width: 100%;
+}
+body .background .news {
+  padding: 7rem 5rem;
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+body .background .news h3 {
+  font-size: 3rem;
+}
+body .background .news p {
+  font-size: 1.4rem;
+  line-height: 2rem;
+  color: #9d9d9d;
+  padding-bottom: 2rem;
+}
+body .background .news div {
+  width: 90%;
+  margin: auto;
+  border: 5px solid #9d9d9d;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body .background .news div input {
+  display: block;
+  width: 70%;
+  margin: 1rem;
+  padding: 1rem;
+  border: none;
+  background: transparent;
+  outline: none;
+  color: #f2f2f2;
+  font-size: 1.4rem;
+  font-style: italic;
+}
+body .background .news div button {
+  display: inline-block;
+  width: 30%;
+  margin: 1rem;
+}
+body .background footer {
+  padding: 5rem;
+}
+body .background footer div {
+  display: flex;
+  width: 100%;
+}
+body .background footer div .short-note {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+body .background footer div .short-note .logo h1 {
+  font-size: 2rem;
+}
+body .background footer div .short-note .logo h1 .mint {
+  color: #44e5ae;
+}
+body .background footer div .short-note p {
+  font-size: 1.4rem;
+  line-height: 2rem;
+  color: #9d9d9d;
+  margin: 0;
+}
+body .background footer div .other-links {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+}
+body .background footer div .other-links a {
+  display: block;
+  color: #9d9d9d;
+  text-decoration: none;
+  font-size: 1.4rem;
+}
+body .background footer div .contact {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+body .background footer div .contact p {
+  font-size: 1.4rem;
+  line-height: 2rem;
+  color: #9d9d9d;
+  margin: 0;
+}
+body .background footer div .contact p span {
+  color: #f2f2f2;
+  font-weight: bold;
+}
+body .background footer div .social {
+  width: 20%;
+}
+body .background footer hr {
+  width: 100%;
+  margin: 4rem 0;
+  color: #9d9d9d;
+}
+body .background footer .copyright {
+  font-size: 1.4rem;
+  color: #9d9d9d;
+  text-align: center;
+}
+body .background .about-one {
+  width: 70%;
+  margin: 3rem auto;
+}
+body .background .about-one h1 {
+  text-align: center;
+  font-size: 3rem;
+}
+body .background .about-one .container-about-one {
+  margin: 5rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+body .background .about-one .container-about-one .phone-image {
+  width: 48%;
+  margin-top: 2rem;
+}
+body .background .about-one .container-about-one .phone-image img {
+  height: 500px;
+  width: 100%;
+}
+body .background .about-one .container-about-one .text {
+  width: 48%;
+}
+body .background .about-one .container-about-one .text h2 {
+  font-size: 2rem;
+  margin: 0;
+  margin-bottom: 2rem;
+}
+body .background .about-one .container-about-one .text p {
+  font-size: 1.4rem;
+  line-height: 2rem;
+  color: #9d9d9d;
+}
+body .background .services {
+  width: 90%;
+  margin: 5rem auto;
+}
+body .background .services h1 {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 3rem;
+}
+body .background .services .container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body .background .services .container div {
+  width: 25%;
+  border: 5px solid #9d9d9d;
+  border-radius: 20px;
+  padding: 2rem;
+  text-align: center;
+}
+body .background .services .container div h2 {
+  font-size: 2rem;
+}
+body .background .services .container div p {
+  font-size: 1.4rem;
+  line-height: 2rem;
+  color: #44e5ae;
+}
+body .background .plans {
+  width: 90%;
+  margin: auto;
+}
+body .background .plans .container {
+  width: 100%;
+  padding: 5rem 0;
+}
+body .background .plans .container h1 {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+body .background .plans .container .wrap {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  text-align: center;
+}
+body .background .plans .container .wrap .box {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid #9d9d9d;
+  border-radius: 10px;
+  padding: 1rem;
+}
+body .background .plans .container .wrap .box h3 {
+  font-size: 1.4rem;
+  color: #44e5ae;
+}
+body .background .plans .container .wrap .box h1 {
+  font-size: 3rem;
+}
+body .background .plans .container .wrap .box p {
+  font-size: 1.4rem;
+  margin: 0.5rem;
+  color: #9d9d9d;
+  line-height: 2rem;
+}
+body .background .plans .container .wrap .box span {
+  font-weight: bold;
+}
+body .background .referral {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+body .background .referral .left {
+  width: 45%;
+}
+body .background .referral .right {
+  width: 45%;
+}
+body .background .referral .right h3 {
+  font-size: 3rem;
+}
+body .background .referral .right p {
+  font-size: 1.4rem;
+  color: #9d9d9d;
+  line-height: 2rem;
+  margin: 1rem 0;
+}/*# sourceMappingURL=style.css.map */
